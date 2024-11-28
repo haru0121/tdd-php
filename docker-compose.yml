@@ -1,0 +1,12 @@
+version: "3"
+services:
+  web:
+    container_name: tdd-php_php
+    build: ./docker/php
+    ports:
+      - 8080:80
+    volumes:
+#      - ./php/httpd.conf:/usr/local/etc/httpd/httpd.conf
+#      - ./php/php.ini:/usr/local/etc/php/php.ini
+      - ./htdocs:/var/www/html
+    restart: always

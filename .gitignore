@@ -1,0 +1,6 @@
+
+/htdocs/node_modules/
+/htdocs/public/assets/
+/xdebug-3.3.2.tgz
+/htdocs/.phpunit.result.cache
+/htdocs/vendor/
